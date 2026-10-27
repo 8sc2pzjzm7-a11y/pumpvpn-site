@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101411">
+<title>Pump VPN</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#101411;color:#f5f7f3;font-family:-apple-system,BlinkMacSystemFont,Arial,sans-serif}
+main{max-width:460px;margin:auto;padding:25px 20px 40px}
+header{display:flex;align-items:center;gap:12px;margin:12px 0 75px}
+.logo{width:46px;height:46px;background:#b6ff61;color:#101411;border-radius:14px;display:grid;place-items:center;font-size:25px;font-weight:900}
+.brand{font-size:20px;font-weight:800;letter-spacing:1px}
+.sub{color:#9ba99a;font-size:11px;margin-top:4px;letter-spacing:1px}
+.pill{margin-left:auto;border:1px solid #344432;border-radius:30px;padding:7px 12px;color:#b6ff61;font-size:12px}
+h1{font-size:43px;line-height:1.08;letter-spacing:-1.5px;margin:0 0 18px}
+h1 span{color:#b6ff61}
+p{color:#a8b2a7;line-height:1.65;font-size:15px}
+.primary{display:block;width:100%;padding:17px;margin-top:27px;background:#b6ff61;color:#101411;text-decoration:none;text-align:center;border:0;border-radius:14px;font-size:16px;font-weight:800}
+.section{margin-top:55px}
+.section h2{font-size:21px}
+.features{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.feature{padding:18px;background:#1b241c;border:1px solid #2b362c;border-radius:16px}
+.symbol{font-size:23px}
+.feature b{display:block;margin-top:13px}
+.feature p{font-size:13px;margin-bottom:0}
+footer{text-align:center;color:#788378;font-size:12px;margin-top:55px}
+</style>
+</head>
+<body>
+<main>
+<header>
+<div class="logo">P</div>
+<div><div class="brand">PUMP VPN</div><div class="sub">YOUR PRIVATE CONNECTION</div></div>
+<div class="pill">● ONLINE</div>
+</header>
+<section>
+<p style="color:#b6ff61;font-weight:700">ТВОЙ ИНТЕРНЕТ. ТВОИ ПРАВИЛА.</p>
+<h1>Интернет<br>без <span>границ.</span></h1>
+<p>Подключайся к Pump VPN и пользуйся интернетом с удобным и современным VPN-сервисом.</p>
+<button class="primary" onclick="document.getElementById('plans').scrollIntoView({behavior:'smooth'})">Выбрать тариф →</button>
+</section>
+<section class="section">
+<h2>Почему Pump VPN?</h2>
+<div class="features">
+<div class="feature"><div class="symbol">⚡</div><b>Быстро</b><p>Комфортная работа в интернете.</p></div>
+<div class="feature"><div class="symbol">🛡️</div><b>Приватно</b><p>Защищённое VPN-соединение.</p></div>
+<div class="feature"><div class="symbol">📱</div><b>Для устройств</b><p>Удобно пользоваться с телефона.</p></div>
+<div class="feature"><div class="symbol">🔑</div><b>Просто</b><p>Получение доступа после настройки.</p></div>
+</div>
+</section>
+<section class="section" id="plans">
+<h2>Подключение</h2>
+<p>Здесь будет доступ к тарифам и покупке VPN.</p>
+<button class="primary" onclick="alert('Покупка появится после подключения Telegram-бота.')">Купить VPN</button>
+<button class="primary" style="background:#202a21;color:#b6ff61;border:1px solid #344432" onclick="alert('Авторизация появится после подключения аккаунта.')">Войти в аккаунт</button>
+</section>
+<footer>© 2026 Pump VPN<br>Ваше соединение — ваши правила.</footer>
+</main>
+</body>
+</html>
